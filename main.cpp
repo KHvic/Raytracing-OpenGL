@@ -1,4 +1,4 @@
-// CS3241Lab5.cpp
+
 #include <cmath>
 #include <iostream>
 #include "vector3D.h"
@@ -92,10 +92,6 @@ double specularLight[3] = { 0.5,0.5, 0.5 };
 double bgColor[3] = { 0.1,0.1,0.4 };
 
 int sceneNo = 0;
-/*==============================
-Modify Section Here
-Hint: Add additional methods to help you in solving equations
-==============================*/
 
 //solve quadratic equation
 double computeRoot(double a, double b, double c) {
@@ -326,12 +322,6 @@ void rayTrace(Ray ray, double& r, double& g, double& b, int fromObj = -1, int le
 	}
 
 }
-/*==============================
-End of Section,
-IT IS NOT RECOMMENDED TO CHANGE ANYTHING BELOW
-==============================*/
-
-
 
 void drawInPixelBuffer(int x, int y, double r, double g, double b)
 {
